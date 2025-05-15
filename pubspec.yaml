@@ -1,4 +1,4 @@
-name: test3
+name: fly_diary_0_0_0
 description: A Flutter weather-integrated diary application.
 version: 1.0.0+1
 
@@ -23,6 +23,15 @@ dependencies:
 
   # 환경 변수(.env) 로딩
   flutter_dotenv: ^5.1.0
+
+  # 달력
+  table_calendar: ^3.0.9
+
+  # GetX - 상태 관리, 라우팅, 종속성 주입, 그리고 다양한 유틸리티 기능을 제공
+  get: ^4.7.2
+
+  # flutter_quill 패키지 설치: (풍부한 텍스트 편집)
+  flutter_quill: ^8.4.3
 
 
 dev_dependencies:

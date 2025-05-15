@@ -1,0 +1,27 @@
+화면 이동
+        홈화면
+        '/home': (context) => HomeScreen(),
+
+        다이어리
+        '/diary': (context) => DiaryListScreen(),
+        다이어리 작성
+        '/write_diary': (context) => WriteDiaryScreen(),
+        다이어리 상세 페이지
+        DiaryDetailScreen()
+
+        TODO
+        '/todo': (context) => TodoScreen(),
+        TODO 작성
+        '/write_todo': (context) => TodoWriteScreen(),
+        TODO 상세 페이지
+        TodoDetailScreen()
+
+        일정
+        '/schedule': (context) => ScheduleScreen(),
+        일정 작성성
+        '/write_ schedule': (context) => ScheduleWriteScreen(),
+        일정 상세 페이지
+        ScheduleDetailScreen()
+
+        설정
+        '/settings': (context) => SettingsScreen(),
