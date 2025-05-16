@@ -31,7 +31,11 @@ class DiaryListScreen extends StatelessWidget {
         elevation: 0,
       ),
       // 본문 영역 구성
-      body: Padding(
+      body: /*CustomScrollView(
+        slivers: [
+          SliverToBoxAdapter(
+            child:*/
+          Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -96,6 +100,9 @@ class DiaryListScreen extends StatelessWidget {
           ],
         ),
       ),
+      /*  ),
+        ],
+      ),*/
       // 일기 작성 화면으로 이동하는 플로팅 버튼
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
@@ -230,6 +237,7 @@ class _WriteDiaryScreenState extends State<WriteDiaryScreen> {
               ),
               maxLines: 10, // 여러 줄 입력 가능
             ),
+
             const SizedBox(height: 5),
             ElevatedButton(
               onPressed: _saveDiary,

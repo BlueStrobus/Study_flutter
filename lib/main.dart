@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:provider/provider.dart';
 import 'screens/home_screen.dart'; // 홈화면
-import 'screens/diary_screen.dart'; // 다이어리 화면
+// import 'screens/diary_screen.dart'; // 다이어리 화면
+import 'screens/diary_screen_0_0_1.dart'; // 다이어리 화면
 import 'screens/schedule_screen.dart'; // 일정 화면
 import 'screens/todo_screen.dart'; // 할일 화면
 import 'screens/settings_screen.dart'; // 설정 화면
@@ -41,7 +42,7 @@ class DiaryApp extends StatelessWidget {
       routes: {
         '/home': (context) => HomeScreen(),
         '/diary': (context) => DiaryListScreen(),
-        '/write_diary': (context) => WriteDiaryScreen(),
+        // '/write_diary': (context) => WriteDiaryScreen(),
         '/todo': (context) => TodoListScreen(),
         '/write_todo': (context) => WriteTodoScreen(),
         '/schedule': (context) => ScheduleListScreen(),
